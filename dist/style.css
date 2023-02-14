@@ -1,0 +1,66 @@
+body {
+  background: lightblue;
+  color: black;
+  font-family: 'Ariel', sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  background: #D6F6FC;
+}
+
+#root {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.editArea {
+  border: 1px solid #38A8B0;
+  box-shadow: 0 0 5px 0px #3E6163;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#editor {
+  resize: vertical;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 200px;
+  border: 1px solid #38A8B0;
+  background: #D6F6FC;
+}
+
+.previewer {
+  margin-top: 40px;
+  border: 1px solid #38A8B0;
+  box-shadow: 0 0 5px 0px #3E6163;
+  text-align: left;
+}
+
+.previewer p {
+  padding: 20px;
+}
+
+#preview {
+  width: 100%;
+  background: #D6F6FC;
+  border-top: 1px solid #38A8B0;
+}
